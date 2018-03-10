@@ -18,7 +18,7 @@ $buttons.append("<button class='buttonSearch'>"+ outdoors[a]+"</button>");
 }
 //create images and stop start___________________________________________________
 function functionSearch(searching){
-  queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searching + "&rating&limit=20&api_key=SFU1k0pkoRGT6u6Q2TYGEgfldbBvS7W2";
+  queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searching + "&rating&limit=20&api_key=SFU1k0pkoRGT6u6Q2TYGEgfldbBvS7W2";
   console.log($input);
   $(".imgClass").html('');
   $.ajax({

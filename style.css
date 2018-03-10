@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+body{
+    background: #eeeeee;
+}
+#searchFor{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    margin: auto;
+
+}
+#buttons{
+    font-size: 1.2em;
+    width: 50%;
+    text-align: center;
+    margin: 3% auto 3% auto;
+
+}
+img{
+    border : solid black 2px;
+    height:150px;
+}
+
+.imgClass{
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+}

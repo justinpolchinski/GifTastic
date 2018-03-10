@@ -1,6 +1,6 @@
 console.log("linking...");
 //SFU1k0pkoRGT6u6Q2TYGEgfldbBvS7W2
-var outdoors = ["Mountain","Tree","Alligator","River","Ski","Rocks","Volcano"];
+var outdoors = ["Mountain","Tree","Alligator","River","Ski","Volcano"];
 var searching;
 var $input = $("#searchInput");
 var imgTagStill;
